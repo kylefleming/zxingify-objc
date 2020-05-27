@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'All' do |ss|
     ss.source_files = 'ZXingObjC/**/*.{h,m}'
+    # ss.exclude_files = 'ZXingObjC/include'
   end
 
   s.subspec 'Core' do |ss|
